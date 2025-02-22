@@ -1,4 +1,4 @@
-FROM dart:3.5.4 AS build
+FROM dart:3.0.6 AS build
 
 WORKDIR /app
 COPY pubspec.yaml pubspec.lock ./
